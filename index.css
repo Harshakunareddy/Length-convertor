@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* list-style: none; */
+}
+
+.title{
+    text-align: center;
+    margin: 30px 0;
+    color: #332;
+    font-size: 30px;
+}
+    
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(211, 219, 226);
+    border-color: #333;
+    border-style: solid;
+    margin: 5px;
+    width: 600px;
+    height: 300px;
+}
+
+.label{
+    color: #333;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+
+/* .margin-left{
+    margin-left: 150px;
+}
+
+.margin-right{
+    margin-left: 300px;
+} */
+
+select{
+    margin: 0px 0px 10px 5px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 0.25rem;
+    width: 400px;
+    height: 30px;
+}
+
+input{
+    border:#333 2px solid;
+    border-radius: 0.25rem;
+    width: 350px;
+    height: 30px;
+}
+
+button{
+    color: #333;
+    font-weight: bolder;
+    border:#333 2px solid ;
+    border-radius: 0.5rem;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #2ef77b;
+}
+
+
+#Measurements{
+    color: #333;
+    font-size: 30px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#result {
+    text-align: center;
+    color:#333;
+    font-size: large;
+    font-weight: bolder;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length-Convertor</title>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="title">
+        <h2>Length-converter</h2>
+    </div>
+
+    <div class="container">
+        <div class="input-container margin-left">
+            <div class="label">From:</div>
+            <div class="input-field">
+                <select class="input-unit" id="input-unit">
+                    <option selected value="Millimeter">Millimeter</option>
+                    <option  value="Centimeter">Centimeter</option>
+                    <option  value="Decimeter">Decimeter</option>
+                    <option  value="Meter">Meter</option>
+                    <option  value="Kilometer">Kilometer</option>
+                    <option  value="Foot">Foot</option>
+                    <option  value="Inch">Inch</option>
+                    <option  value="Mile">Mile</option>
+                    <option  value="Yard">Yard</option>
+                </select>    
+            </div>
+            <div class="number">
+                <input type="number" placeholder="enter number" id="number" min="0">
+            </div>
+
+            <div class="label">To:</div>
+            <div class="output-field ">
+                <select class="output-unit" id="output-unit">
+                    <option  value="Millimeter">Millimeter</option>
+                    <option selected value="Centimeter">Centimeter</option>
+                    <option  value="Decimeter">Decimeter</option>
+                    <option  value="Meter">Meter</option>
+                    <option  value="Kilometer">Kilometer</option>
+                    <option  value="Foot">Foot</option>
+                    <option  value="Inch">Inch</option>
+                    <option  value="Mile">Mile</option>
+                    <option  value="Yard">Yard</option>
+                </select>    
+            </div>
+            <div class="buttons">
+                <!-- <button type="button" class="reset">Reset</button> -->
+                <button type="button" onclick="displayResult()" class="submit">Submit</button>
+            </div>
+        </div>
+        
+        <div class="input-container margin-right">
+            <div id="Measurements">
+                <h3>Measurements</h3>
+
+            </div>
+            
+                <div id="result">
+                    <ul>
+                        <li> 1 millimeter = 1 millimeter</li>
+                        <li> 10 millimeter = 1 centimeter</li>
+                        <li> 100 millimeter = 1 decimeter</li>
+                        <li> 1000 millimeter = 1 meter</li>
+                        <li> 1000000 millimeter = 1 kilometer</li>
+                        <li> 304.8 millimeter = 1 foot</li>
+                        <li> 25.4 millimeter = 1 inch</li>
+                        <li> 1609344 millimeters = 1 mile</li>
+                        <li> 914.4 millimeter = 1 yard</li>
+                    </ul>
+                </div>
+                
+    
+            <!-- <div class="output-box">
+                <h3>Result</h3>
+                <div id="result">---</div>
+            </div> -->
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
