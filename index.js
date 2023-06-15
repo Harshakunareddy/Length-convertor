@@ -6,10 +6,6 @@
 //submit
 
 
-var Measurements = document.getElementsByClassName("Measurements");
-var outputBox = document.getElementsByClassName("outputBox");
-
-
 function displayResult(inputUnit,outputUnit,number,result){
     var inputUnit = document.getElementById("input-unit").value;
     var outputUnit = document.getElementById("output-unit").value;
